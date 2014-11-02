@@ -1,0 +1,12 @@
+{
+  "name": "gitrepos",
+  "version": "0.0.1",
+  "description": "pull list of github user's repo",
+  "main": "git_repo_name.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "nitesh sharma",
+  "license": "BSD"
+}

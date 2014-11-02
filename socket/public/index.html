@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>
+		
+	</title>
+	<script type="text/javascript" src="http://127.0.0.1:3000/socket.io/socket.io.js"></script>
+	<script type="text/javascript">
+	var socket = io.connect("127.0.0.1:3000");
+
+	socket.on("fromServer", function(data){
+		document.write(data.message);
+	})
+
+	socket.emit("fromClient", {message: "enter a client event"})
+	
+	socket.on("chat", function(data){
+		document.write(data.message);
+	})
+	</script>
+</head>
+<body>
+	hello
+</body>
+</html>
