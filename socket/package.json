@@ -9,7 +9,7 @@
   "dependencies":{
     "express": "*",
     "connect" : "*",
-    "socket.io": "0.9.6"
+    "socket.io": "2.3.0"
   },
   "repository": "",
   "author": "",
